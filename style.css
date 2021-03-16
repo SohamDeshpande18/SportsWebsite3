@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    
+    background-size:cover;
+    height: 50rem;
+}
+.header{ 
+    padding:20px;
+    height:100vh;
+    background:url("749022-rohit-dna-salman-ansari.jpg") center ;
+    background-size:cover;
+    position:relative
+}
+
+.header .title h1{
+    margin:0;
+    font-weight:bold;
+    font-size:3rem;
+    color:#fff;
+    text-align: center;
+    font-family:karla
+}
+header .title{
+    padding-top: 200px;
+}
+
+header ul li{
+    list-style-type:none
+}
+
+header ul{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+
+header ul li a {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#ccc;
+    font-size: 1rem;
+    text-decoration: none;
+    padding:1rem;
+    letter-spacing:1px;
+    font-family: montserrat;
+}
+
+header ul li a:hover{
+    color:brown
+}
+
+.biography{
+    background:radial-gradient(cyan,rgb(0, 255, 21),rgb(217, 255, 0));
+    background-size:cover;
+    color: rgb(248, 245, 245);
+    padding: 10px;
+    text-shadow:0 0 12px rgb(0, 0, 0);
+}
+
+.biography p{
+    color:rgb(241, 215, 206);
+    text-shadow:0 0 12px rgb(0, 0, 0);
+}

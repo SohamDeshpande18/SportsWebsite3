@@ -1,0 +1,74 @@
+body{
+    background: url('https://talepost.com/wp-content/uploads/2018/12/ipl-teams_710x400xt.jpg');
+    background-size: cover;
+}
+
+.header{
+    padding:20px;
+    height:50vh;
+    background-size:cover;
+    position:relative
+}
+
+.header h1{
+    margin:0;
+    font-weight:bold;
+    font-size:3rem;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family:karla
+}
+
+.header h2{
+    margin:0;
+    font-weight:bold;
+    font-size:2rem;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family:karla
+}
+
+header .title{
+    padding-top: 200px;
+}
+
+header ul li{
+    list-style-type:none
+}
+
+header ul{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+
+header ul li a {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:rgb(219, 61, 61);
+    font-size: 1rem;
+    text-decoration: none;
+    padding:1rem;
+    letter-spacing:1px;
+    font-family: montserrat;
+}
+
+header ul li a:hover{
+    color:rgb(136, 148, 134)
+}
+
+#datavalue{
+    text-align: center;
+    padding: 10px;
+}
+#year{
+    width:100px;
+}
+
+.title h1{
+    color: beige;
+}
+
+.title h2{
+    color: rgb(0, 255, 34);
+}
